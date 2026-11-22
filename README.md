@@ -1,4 +1,4 @@
-🚀 GraphOne Data Intelligence
+# GraphOne Data Intelligence
 
 **A traceable data pipeline for discovering and monitoring AI companies, products, research, news, and jobs.**
 
