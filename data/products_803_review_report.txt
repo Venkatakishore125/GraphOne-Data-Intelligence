@@ -1,0 +1,80 @@
+GraphOne Data Intelligence — 803 Candidate Review
+Generated at: 2026-11-21T17:15:24.608830+00:00
+Input: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_new_sources_candidates.json
+
+Total candidates processed: 803
+APPROVE: 468
+MANUAL CHECK: 113
+REJECT: 222
+Confirmed duplicate records: 0
+Possible duplicate/domain/name collisions: 4
+Website verification failures/incomplete checks: 32
+Robots-disallowed sites: 30
+Records with strong first-party AI evidence: 587
+Records without sufficient combined evidence: 333
+Source provenance validation issues: 1
+Outbound HTTP requests in this pass (including robots.txt): 943
+robots.txt requests: 465
+Official website requests: 478
+Reused prior verified results: 575
+Redirect-retry website checks: 228
+
+Execution note
+- The first pass exposed a www canonical-redirect normalization issue. The corrected pass reused 575 prior successful/robots results and retried the 228 affected redirect checks.
+- The 943 request count above is from the corrected pass; the first pass made 1,649 requests (2,592 total across both passes).
+
+Protected files
+- products.json: unchanged
+- products.csv: unchanged
+- products_merged_review.json: unchanged
+- products_new_sources_candidates.json: unchanged
+- products_new_sources_review.csv: unchanged
+
+Outputs
+- products_803_final_review.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_final_review.json
+- products_803_final_review.csv: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_final_review.csv
+- products_803_approved.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_approved.json
+- products_803_manual_check.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_manual_check.json
+- products_803_rejected.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_rejected.json
+- products_803_review_report.txt: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_review_report.txt
+
+Verification errors (first 30; complete per-record details are in the review JSON):
+- MailerLite: ROBOTS_DISALLOWED — robots.txt disallows access to /aff_c
+- Tabentic: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Dropchat AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Ginzi AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Book AI Writer AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Glasshand: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Dr. Gupta: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Goodmeetings AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- FileGPT AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Token Wise: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Arguseye: ROBOTS_DISALLOWED — robots.txt disallows access to /arguseye
+- LetsView Chat AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /chatbot
+- type.com: ROBOTS_UNVERIFIED — ROBOTS_ERROR: HTTPSConnectionPool(host='type.com', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError("HTTPSConnection(host='type.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+- Free AI Chatbot Builder: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Refraction AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- ContentBot AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- SlidesAI: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Motiff AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- FaceFusion: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Leya AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Coinfeeds: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- OpenCity AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Videoclaw: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Naseem: ROBOTS_DISALLOWED — robots.txt disallows access to /naseem-app
+- GET3D by NVIDIA: ROBOTS_DISALLOWED — robots.txt disallows access to /GET3D
+- STORYD: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Figr: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Artbreeder AI Reviews: Use Cases, Pricing & Alternatives: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- VocxAI: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Miligram: ROBOTS_UNVERIFIED — ROBOTS_HTTP_401
+
+Limitations
+- This is a conservative automated review of public first-party HTML, not human or legal certification.
+- Sites that block access, disallow crawling, render only client-side content, or provide ambiguous evidence are routed to MANUAL CHECK.
+- APPROVE requires page/domain identity, specific AI evidence in first-party page content, and overlap between the supplied description and visible page text.
+- Domain-only or name-only overlap is treated as a possible duplicate and routed to MANUAL CHECK; exact name-and-domain matches are rejected as duplicates.
+- HTTP 404/410 responses are rejected; an accessible page does not by itself prove a service is not discontinued, so explicit shutdown notices may still need manual review.
+- Source provenance is checked against approved directory domains and product-listing URL formats; directory listing pages were not all re-fetched during this review.
+- Product descriptions, source provenance, original source URLs, and original candidate fields are preserved. Original automated decision/reason are retained as automatedDecision/automatedReason.

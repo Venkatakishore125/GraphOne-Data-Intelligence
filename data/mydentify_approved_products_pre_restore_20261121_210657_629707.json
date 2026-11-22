@@ -1,0 +1,82 @@
+[
+  {
+    "productName": "AnyModelBot",
+    "website": "https://anymodel.bot/",
+    "category": "AI & machine learning",
+    "description": "Open-source AI assistant for WeChat and Feishu/Lark with 70+ models, one key.",
+    "pricing": "Free and open source (MIT). Pay as you go for model usage, no monthly fee.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "AI assistant supporting multiple AI models"
+  },
+  {
+    "productName": "appstackbuilder",
+    "website": "https://appstackbuilder.com/",
+    "category": "Developer tools",
+    "description": "App Stack Builder helps founders and developers generate AI-powered tech stacks, discover SaaS and developer tools, compare alternatives, and choose software faster.",
+    "pricing": "The stack generator is free.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "Product page describes an AI-powered tech stack generator that recommends technology stacks based on user requirements."
+  },
+  {
+    "productName": "DashboardGPT",
+    "website": "https://www.dashboardgpt.org/",
+    "category": "Analytics & data",
+    "description": "DashboardGPT is an AI-powered visual BI workspace that turns natural-language questions into interactive charts, metrics, written insights, and visual analysis on an infinite canvas. Ask questions in plain English without SQL, upload CSV or Excel files, connect your data warehouse, and explore results through contextua",
+    "pricing": "Pricing was not publicly confirmed.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "Natural-language AI analytics workspace"
+  },
+  {
+    "productName": "Einfach AI",
+    "website": "https://einfachai.com/",
+    "category": "Automation",
+    "description": "KI-Agenten, RAG-Systeme und Workflow-Automatisierung für Unternehmensprozesse.",
+    "pricing": "Preise wurden öffentlich nicht bestätigt.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "AI agents, RAG and workflow automation"
+  },
+  {
+    "productName": "Engineering on Web",
+    "website": "https://engineeringonweb.com/",
+    "category": "Design & creative",
+    "description": "Free browser-based CAD, FEA simulation and engineering statistics, with an AI assistant that builds CAD features from text or voice.",
+    "pricing": "Free",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "Product page confirms an AI assistant that creates CAD features from text or voice commands."
+  },
+  {
+    "productName": "LLM Gateway",
+    "website": "",
+    "category": "Developer tools",
+    "description": "Route requests across 200+ models from 40+ providers through one OpenAI-compatible API.",
+    "pricing": "Free plan with three rate-limited models. Usage credits incur a 5% platform fee; bring-your-own-key access is free. Enterprise pricing is custom with a 30-day trial.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "API routing across multiple AI models; website URL missing"
+  },
+  {
+    "productName": "Process Street",
+    "website": "https://www.process.st/",
+    "category": "Legal & compliance",
+    "description": "AI-powered process management platform for creating, automating, and tracking repeatable workflows.",
+    "pricing": "Contact sales for Startup, Pro, and Enterprise pricing. A 14-day Pro trial is available without a credit card.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "AI-powered process management"
+  },
+  {
+    "productName": "Tsenta",
+    "website": "",
+    "category": "AI & machine learning",
+    "description": "An AI agent that watches 50,000+ career pages and submits applications across 19 ATSes — on web, iOS, Android, iMessage, WhatsApp, Chrome, and CLI. Start with 25 free applications.",
+    "pricing": "Pricing was not publicly confirmed.",
+    "source": "Mydentify",
+    "decision": "APPROVE",
+    "reason": "AI job application agent; website URL missing"
+  }
+]

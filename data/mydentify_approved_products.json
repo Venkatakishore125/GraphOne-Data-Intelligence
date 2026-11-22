@@ -1,0 +1,309 @@
+[
+  {
+    "type": "product",
+    "name": "AnyModelBot",
+    "slug": "anymodelbot",
+    "url": "https://anymodel.bot/",
+    "canonicalPath": "/products/anymodelbot",
+    "category": {
+      "slug": "ai-machine-learning",
+      "name": "AI & machine learning"
+    },
+    "summary": "Open-source AI assistant for WeChat and Feishu/Lark with 70+ models, one key.",
+    "pricingSummary": "Free and open source (MIT). Pay as you go for model usage, no monthly fee.",
+    "freePlan": false,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [],
+    "updatedAt": "2026-11-21T12:21:02.365Z",
+    "decision": "APPROVE",
+    "reason": "AI assistant supporting multiple AI models"
+  },
+  {
+    "type": "product",
+    "name": "appstackbuilder",
+    "slug": "app-stack-builder",
+    "url": "https://appstackbuilder.com/",
+    "canonicalPath": "/products/app-stack-builder",
+    "category": {
+      "slug": "developer-tools",
+      "name": "Developer tools"
+    },
+    "summary": "App Stack Builder helps founders and developers generate AI-powered tech stacks, discover SaaS and developer tools, compare alternatives, and choose software faster.",
+    "pricingSummary": "The stack generator is free.",
+    "freePlan": true,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [
+      {
+        "intent_id": "a8a06712-0e4d-4ef3-a672-84d06237981c",
+        "canonical_label": "Manage my budget",
+        "title": "Manage my budget",
+        "canonicalPath": "/i-want-to/manage-my-budget",
+        "claim": "Generates tailored tech stack recommendations and compares developer tools, pricing, free tiers, and build-versus-buy costs.",
+        "firstStep": "Visit appstackbuilder.com to explore appstackbuilder.",
+        "claimStrength": "evidence_supported",
+        "sponsored": false
+      }
+    ],
+    "updatedAt": "2026-11-21T10:44:45.207Z",
+    "decision": "APPROVE",
+    "reason": "Product page describes an AI-powered tech stack generator that recommends technology stacks based on user requirements."
+  },
+  {
+    "type": "product",
+    "name": "DashboardGPT",
+    "slug": "dashboardgpt",
+    "url": "https://www.dashboardgpt.org/",
+    "canonicalPath": "/products/dashboardgpt",
+    "category": {
+      "slug": "analytics-data",
+      "name": "Analytics & data"
+    },
+    "summary": "DashboardGPT is an AI-powered visual BI workspace that turns natural-language questions into interactive charts, metrics, written insights, and visual analysis on an infinite canvas. Ask questions in plain English without SQL, upload CSV or Excel files, connect your data warehouse, and explore results through contextua",
+    "pricingSummary": "Pricing was not publicly confirmed.",
+    "freePlan": false,
+    "trialAvailable": true,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [],
+    "updatedAt": "2026-11-03T11:17:54.567Z",
+    "decision": "APPROVE",
+    "reason": "Natural-language AI analytics workspace"
+  },
+  {
+    "type": "product",
+    "name": "Einfach AI",
+    "slug": "einfach-ai",
+    "url": "https://einfachai.com/",
+    "canonicalPath": "/products/einfach-ai",
+    "category": {
+      "slug": "automation",
+      "name": "Automation"
+    },
+    "summary": "KI-Agenten, RAG-Systeme und Workflow-Automatisierung für Unternehmensprozesse.",
+    "pricingSummary": "Preise wurden öffentlich nicht bestätigt.",
+    "freePlan": false,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [
+      {
+        "intent_id": "1ef38bb5-2ee5-418c-841c-e1f4a2227d3d",
+        "canonical_label": "Build with AI agents",
+        "title": "Build with AI agents",
+        "canonicalPath": "/i-want-to/build-with-ai-agents",
+        "claim": "Automatisiert Arbeit zwischen Menschen, Dokumenten und Software mit KI-Agenten, RAG-Systemen und Workflows.",
+        "firstStep": "Visit einfachai.com to explore Einfach AI.",
+        "claimStrength": "evidence_supported",
+        "sponsored": false
+      }
+    ],
+    "updatedAt": "2026-10-25T23:49:57.575Z",
+    "decision": "APPROVE",
+    "reason": "AI agents, RAG and workflow automation"
+  },
+  {
+    "type": "product",
+    "name": "Engineering on Web",
+    "slug": "engineering-on-web-cad",
+    "url": "https://engineeringonweb.com/",
+    "canonicalPath": "/products/engineering-on-web-cad",
+    "category": {
+      "slug": "design-creative",
+      "name": "Design & creative"
+    },
+    "summary": "Free browser-based CAD, FEA simulation and engineering statistics, with an AI assistant that builds CAD features from text or voice.",
+    "pricingSummary": "Free",
+    "freePlan": false,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [],
+    "updatedAt": "2026-11-21T12:31:58.977Z",
+    "decision": "APPROVE",
+    "reason": "Product page confirms an AI assistant that creates CAD features from text or voice commands."
+  },
+  {
+    "type": "product",
+    "name": "LLM Gateway",
+    "slug": "llm-gateway",
+    "url": null,
+    "canonicalPath": "/products/llm-gateway",
+    "category": {
+      "slug": "developer-tools",
+      "name": "Developer tools"
+    },
+    "summary": "Route requests across 200+ models from 40+ providers through one OpenAI-compatible API.",
+    "pricingSummary": "Free plan with three rate-limited models. Usage credits incur a 5% platform fee; bring-your-own-key access is free. Enterprise pricing is custom with a 30-day trial.",
+    "freePlan": false,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": false,
+      "tryButton": false,
+      "imageLimit": 1
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [
+      {
+        "intent_id": "cb465d8b-49e3-45b4-b02f-aa85da8cee08",
+        "canonical_label": "Create API documentation",
+        "title": "Create API documentation",
+        "canonicalPath": "/i-want-to/create-api-documentation",
+        "claim": "Route requests across 200+ models from 40+ providers through one OpenAI-compatible API.",
+        "firstStep": "Visit mydentify.com to explore LLM Gateway.",
+        "claimStrength": "editor_verified",
+        "sponsored": false
+      }
+    ],
+    "updatedAt": "2026-07-24T05:42:53.551Z",
+    "decision": "APPROVE",
+    "reason": "API routing across multiple AI models; website URL missing"
+  },
+  {
+    "type": "product",
+    "name": "Process Street",
+    "slug": "process-street",
+    "url": "https://www.process.st/",
+    "canonicalPath": "/products/process-street",
+    "category": {
+      "slug": "legal-compliance",
+      "name": "Legal & compliance"
+    },
+    "summary": "AI-powered process management platform for creating, automating, and tracking repeatable workflows.",
+    "pricingSummary": "Contact sales for Startup, Pro, and Enterprise pricing. A 14-day Pro trial is available without a credit card.",
+    "freePlan": true,
+    "trialAvailable": true,
+    "listingAccess": {
+      "outboundLinks": true,
+      "tryButton": true,
+      "imageLimit": 3
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [
+      {
+        "intent_id": "5b0cebdd-47e5-48a2-bb86-78c7d195e598",
+        "canonical_label": "Automate customer support",
+        "title": "Automate customer support",
+        "canonicalPath": "/i-want-to/automate-customer-support",
+        "claim": "Process Street says its platform connects policies, workflows, controls, and audit evidence to support compliance operations.",
+        "firstStep": "Visit process.st to explore Process Street.",
+        "claimStrength": "evidence_supported",
+        "sponsored": false
+      },
+      {
+        "intent_id": "bac5e900-a75a-4aa2-878b-86871875c2ec",
+        "canonical_label": "Build without coding",
+        "title": "Build without coding",
+        "canonicalPath": "/i-want-to/build-without-coding",
+        "claim": "Process Street says its platform connects policies, workflows, controls, and audit evidence to support compliance operations.",
+        "firstStep": "Visit process.st to explore Process Street.",
+        "claimStrength": "evidence_supported",
+        "sponsored": false
+      },
+      {
+        "intent_id": "e97306c0-cc66-41dd-a044-e24250430b32",
+        "canonical_label": "Set up analytics",
+        "title": "Set up analytics",
+        "canonicalPath": "/i-want-to/set-up-analytics",
+        "claim": "Process Street says its platform connects policies, workflows, controls, and audit evidence to support compliance operations.",
+        "firstStep": "Visit process.st to explore Process Street.",
+        "claimStrength": "evidence_supported",
+        "sponsored": false
+      }
+    ],
+    "updatedAt": "2026-11-21T09:55:20.769Z",
+    "decision": "APPROVE",
+    "reason": "AI-powered process management"
+  },
+  {
+    "type": "product",
+    "name": "Tsenta",
+    "slug": "tsenta",
+    "url": null,
+    "canonicalPath": "/products/tsenta",
+    "category": {
+      "slug": "ai-machine-learning",
+      "name": "AI & machine learning"
+    },
+    "summary": "An AI agent that watches 50,000+ career pages and submits applications across 19 ATSes — on web, iOS, Android, iMessage, WhatsApp, Chrome, and CLI. Start with 25 free applications.",
+    "pricingSummary": "Pricing was not publicly confirmed.",
+    "freePlan": false,
+    "trialAvailable": false,
+    "listingAccess": {
+      "outboundLinks": false,
+      "tryButton": false,
+      "imageLimit": 1
+    },
+    "arena_record": {
+      "wins": 0,
+      "podiums": 0
+    },
+    "arena_awards": [],
+    "supportedIntents": [
+      {
+        "intent_id": "bac5e900-a75a-4aa2-878b-86871875c2ec",
+        "canonical_label": "Build without coding",
+        "title": "Build without coding",
+        "canonicalPath": "/i-want-to/build-without-coding",
+        "claim": "An AI agent that watches 50,000+ career pages and submits applications across 19 ATSes — on web, iOS, Android, iMessage, WhatsApp, Chrome, and CLI. Start with 25 free applications.",
+        "firstStep": "Visit mydentify.com to explore Tsenta.",
+        "claimStrength": "editor_verified",
+        "sponsored": false
+      }
+    ],
+    "updatedAt": "2026-07-24T14:00:51.199Z",
+    "decision": "APPROVE",
+    "reason": "AI job application agent; website URL missing"
+  }
+]

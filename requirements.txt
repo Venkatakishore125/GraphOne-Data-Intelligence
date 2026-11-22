@@ -1,0 +1,11 @@
+aiohttp>=3.12
+beautifulsoup4>=4.13
+feedparser>=6.0
+python-dotenv>=1.0
+rapidfuzz>=3.12
+requests>=2.32
+reportlab>=4.2
+xlsxwriter>=3.2
+pytest>=8.3
+openpyxl>=3.1
+pypdf>=5.0

@@ -1,0 +1,72 @@
+GraphOne Data Intelligence — 803 Candidate Review
+Generated at: 2026-11-21T17:06:43.888948+00:00
+Input: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_new_sources_candidates.json
+
+Total candidates processed: 803
+APPROVE: 327
+MANUAL CHECK: 311
+REJECT: 165
+Confirmed duplicate records: 0
+Possible duplicate/domain/name collisions: 4
+Website verification failures/incomplete checks: 260
+Robots-disallowed sites: 30
+Records with strong first-party AI evidence: 409
+Records without sufficient combined evidence: 474
+Source provenance validation issues: 1
+Outbound HTTP requests (including robots.txt): 1649
+robots.txt requests: 829
+Official website requests: 820
+
+Protected files
+- products.json: unchanged
+- products.csv: unchanged
+- products_merged_review.json: unchanged
+- products_new_sources_candidates.json: unchanged
+- products_new_sources_review.csv: unchanged
+
+Outputs
+- products_803_final_review.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_final_review.json
+- products_803_final_review.csv: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_final_review.csv
+- products_803_approved.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_approved.json
+- products_803_manual_check.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_manual_check.json
+- products_803_rejected.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_rejected.json
+- products_803_review_report.txt: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_803_review_report.txt
+
+Verification errors (first 30; complete per-record details are in the review JSON):
+- MailerLite: ROBOTS_DISALLOWED — robots.txt disallows access to /aff_c
+- Gemini 4 Hydrogen: REDIRECT_LOOP — Redirect loop detected.
+- Hostinger Reach AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Ari: REDIRECT_LOOP — Redirect loop detected.
+- LivelyChart: REDIRECT_LOOP — Redirect loop detected.
+- Claude Fable 5.2: REDIRECT_LOOP — Redirect loop detected.
+- Teal Resume Builder: REDIRECT_LOOP — Redirect loop detected.
+- Trade Ideas AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Tabentic: ROBOTS_DISALLOWED — robots.txt disallows access to /
+- Chat Data AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- BioRaptor AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- MemGPT AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Whatmore Studio AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- World Perfume Protocol: REDIRECT_LOOP — Redirect loop detected.
+- Rescroll: REDIRECT_LOOP — Redirect loop detected.
+- Shopify AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- PrimCut: REDIRECT_LOOP — Redirect loop detected.
+- Airbridge: REDIRECT_LOOP — Redirect loop detected.
+- Xano AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Lumana AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Pluspoint: REDIRECT_LOOP — Redirect loop detected.
+- MimicPC AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- The Forge: REDIRECT_LOOP — Redirect loop detected.
+- DaVinci Resolve: REDIRECT_LOOP — Redirect loop detected.
+- Tecla: REDIRECT_LOOP — Redirect loop detected.
+- Scalenut AI Reviews: Use Cases, Pricing & Alternatives: REDIRECT_LOOP — Redirect loop detected.
+- Screenery: REDIRECT_LOOP — Redirect loop detected.
+- PromptJury: REDIRECT_LOOP — Redirect loop detected.
+- MySalesDemo: REDIRECT_LOOP — Redirect loop detected.
+- Floor Plan Maker: REDIRECT_LOOP — Redirect loop detected.
+
+Limitations
+- This is a conservative automated review of public first-party HTML, not human or legal certification.
+- Sites that block access, disallow crawling, render only client-side content, or provide ambiguous evidence are routed to MANUAL CHECK.
+- APPROVE requires page/domain identity, specific AI evidence in first-party page content, and overlap between the supplied description and visible page text.
+- Domain-only or name-only overlap is treated as a possible duplicate and routed to MANUAL CHECK; exact name-and-domain matches are rejected as duplicates.
+- Product descriptions, source provenance, original source URLs, and original candidate fields are preserved. Original automated decision/reason are retained as automatedDecision/automatedReason.

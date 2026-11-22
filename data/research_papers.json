@@ -1,0 +1,2157 @@
+[
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+            "authors": [
+                "Weihao Cheng"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26624v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:59:34Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138841+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+            "authors": [
+                "Yuxin Jiang",
+                "Wenqiang Sun",
+                "Jiaqi Li",
+                "Yuchao Gu",
+                "Lvmin Zhang",
+                "Ivor Tsang",
+                "Mike Zheng Shou"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26617v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:58:14Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138898+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Fractional Charge at Dislocations from Band-Inversion Cancellation",
+            "authors": [
+                "Vladimir Juričić",
+                "Rodrigo Soto-Garrido"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26616v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:58:11Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138921+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+            "authors": [
+                "Amine Lbath",
+                "Manan Suri",
+                "Aurelien Delaitre",
+                "Vadim Okun",
+                "Massih-Reza Amini",
+                "Dinesh Manocha"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26601v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:54:19Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138949+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
+            "authors": [
+                "Yang Meng",
+                "Zixin Ding",
+                "Robert L. Grossman",
+                "Yuxin Chen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26598v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:52:57Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138973+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+            "authors": [
+                "Kai Lu",
+                "Chenyang Ma",
+                "Ioannis Havoutis"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26596v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:52:18Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.138994+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+            "authors": [
+                "Terence D. Agbeyegbe",
+                "Toneukarin G. Agbeyegbe"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26592v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:47:51Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139014+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+            "authors": [
+                "Jiahao Huang",
+                "Jun Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26590v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:46:50Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139038+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
+            "authors": [
+                "Ana E. Sanchez Villalobos",
+                "Michael D. Quinn",
+                "Aakash Tyagi",
+                "Minh D. Luu",
+                "David Kebo Houngninou"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26588v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:45:54Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139064+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
+            "authors": [
+                "Adrià Ciurana Lanau",
+                "Harleen Hanspal",
+                "Lusine Abrahamyan",
+                "Emilio Tylson Baixauli",
+                "Yu Cao",
+                "Danai Triantafyllidou",
+                "Stefano Zorzi",
+                "Gustavo Zanoni Felipe",
+                "Peter Griger",
+                "Stefan Sietzen",
+                "Petru-Daniel Tudosiu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26586v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:45:31Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139100+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
+            "authors": [
+                "Sean Tang",
+                "Peiran Wang",
+                "Ying Li",
+                "Esha Shivakumar",
+                "Tao Meng",
+                "Yuan Tian"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26564v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:33:42Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139129+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+            "authors": [
+                "Amirali Khosravi",
+                "Jaidip M. Jagtap",
+                "D. Chamil Codipilly",
+                "Catherine E. Hagen",
+                "Jason T. Lewis",
+                "Rickey E. Carter",
+                "Shahriar Faghani",
+                "Vani J. A. Konda",
+                "Fouad Otaki",
+                "Shajan Peter",
+                "Nicholas Shaheen",
+                "Sachin Wani",
+                "Prasad G. Iyer",
+                "Bradley J. Erickson"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26562v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:27:59Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139174+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
+            "authors": [
+                "Jinzhe Li",
+                "Qi Wang",
+                "Dandan Guo",
+                "Li Liu",
+                "Yuan Wu",
+                "Yi Chang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26557v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:25:41Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139210+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+            "authors": [
+                "Mengxiao Wang",
+                "Mahbub Alam",
+                "Kalyan Nakka",
+                "Nitesh Saxena"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26553v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:23:35Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139238+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
+            "authors": [
+                "Md. Abdullah Al Zami",
+                "Suraiya Shanaz",
+                "Mahdi Hasan",
+                "Shoaib Ahmed Dipu",
+                "Farig Yousuf Sadeque",
+                "Md. Sabbir Ahmed"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26545v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:20:01Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139273+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "AURA: AUdio-dRiven streaming Avatar",
+            "authors": [
+                "Nathaniel Cohen",
+                "Nicolas Dufour",
+                "Amélie Royer",
+                "Alasdair Newson",
+                "Patrick Pérez"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26540v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:17:38Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139303+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "LLM GerryMandering: Separating Interactions from Additive Effects in LLM Audits",
+            "authors": [
+                "George Rahul",
+                "Ronit Jahilal",
+                "Bhaskara Hanuma Vedula",
+                "Ponnurangam Kumaraguru",
+                "Pushkar Shukla"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26538v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:16:40Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139336+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+            "authors": [
+                "Chang Yang",
+                "Yao Xuan",
+                "Wendan Yan",
+                "Nhat Le",
+                "Jiang Liu",
+                "Longhao Jin",
+                "Zhen Peggy Yao",
+                "Alireza Vahdatpour",
+                "Djordje Gligorijevic"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26531v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:12:04Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139377+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Backtracking Agent Applications Security Incidents",
+            "authors": [
+                "Yicheng Cai",
+                "Taegyu Kim",
+                "Peng Liu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26525v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T18:01:28Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139403+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers",
+            "authors": [
+                "Sahibzada Allahyar",
+                "Julia White",
+                "Dhruv Atreja",
+                "George Hurn-Maloney",
+                "Urchade Zaratiana"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26509v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:56:44Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139434+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Near Infrared HST Images Resolve the Filamentary Emission Knots in Pa 30, the Remnant of the Galactic Supernova of 1181 AD",
+            "authors": [
+                "Robert A. Fesen",
+                "Dan Milisavljevic",
+                "Peter Garnavich",
+                "Dan Patnaude",
+                "Tea Temim"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26494v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:47:11Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139467+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "FLUID: Flexible, Evidence-Grounded Situated Task Guidance",
+            "authors": [
+                "Yunqi Zhao",
+                "Run Peng",
+                "Ze Dong",
+                "Ryan Lu",
+                "Yinpei Dai",
+                "Joyce Chai"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26491v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:45:07Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139498+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "A new algorithmic approach for finding flat minima: critically damped Polyak stepsizes",
+            "authors": [
+                "Francesco Caporali",
+                "Jason M. Altschuler",
+                "Boris Hanin"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26475v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:35:37Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139525+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Introducing ReTiNA-Cinema: Real-Time Neuro-Augmented Cinema via Generative AI",
+            "authors": [
+                "Antoine Bellemare-Pepin",
+                "Philipp Thölke",
+                "Yann Harel",
+                "Mar Estarellas",
+                "Karim Jerbi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26469v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:30:43Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139555+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Monte Carlo Pass Search for Setpieces",
+            "authors": [
+                "Andrew Kang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26464v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:26:38Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139575+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+            "authors": [
+                "Tanmay Sah"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26450v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:18:38Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139602+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+            "authors": [
+                "Yuzhi Huang",
+                "Jie Wu",
+                "Fanding Huang",
+                "Junchao Lin",
+                "Weichen Zhang",
+                "Ziyi Xiong",
+                "Yang Li",
+                "Zhengwei Xie",
+                "Zhimin Wang",
+                "Zhen Liu",
+                "Jiazhen Huang",
+                "Yuzheng Zhang",
+                "Yuche Liu",
+                "Hongyi Yang",
+                "Chen Tang",
+                "Shixiang Tang",
+                "Hakan Aktas",
+                "Adam Wu",
+                "Duo Wu",
+                "Kangye Ji",
+                "Shuzhao Xie",
+                "Huanan Liu",
+                "Weijue Bu",
+                "Chenxin Li",
+                "Xinyuan Wang",
+                "Tianyi Bai",
+                "Yinan Mao",
+                "Jiawei Wang",
+                "Minglei Li",
+                "Heng Yu",
+                "Ehsan Adeli",
+                "Minchen Li",
+                "Yong-Lu Li",
+                "Cengiz Öztireli",
+                "Huazhe Xu",
+                "Chao Yu",
+                "Jing Zhang",
+                "Shanghang Zhang",
+                "Weitao Zhou",
+                "Wenwu Zhu",
+                "Cheng Chi",
+                "Jingyan Jiang",
+                "Zhi Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26444v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:15:38Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139708+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware",
+            "authors": [
+                "Víctor Rodrigo González",
+                "Pablo M. Olmos",
+                "Ignacio Peis",
+                "Alejandro Lancho"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26437v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:12:34Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139730+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Seer: Guiding Small Deep-Research Agents with Shared Decision Models",
+            "authors": [
+                "Yuhao Zhou",
+                "Yang Zhou",
+                "Yuanxi Li",
+                "Jindi Lv",
+                "Dan Si",
+                "Qing Ye",
+                "Jiancheng Lv"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26423v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:03:24Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139760+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction",
+            "authors": [
+                "Jihong Zhang",
+                "Zijing Jin",
+                "Mingfeng Xue"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26422v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:03:16Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139778+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+            "authors": [
+                " EngineAI"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26420v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:03:03Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139794+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+            "authors": [
+                "Zixuan Huang",
+                "Yang Zhou",
+                "Guli Zhang",
+                "Sunzhu Li",
+                "Hongyan Xie",
+                "Zehao Chen",
+                "Fuzhen Zhuang",
+                "Kaixuan Wang",
+                "Xiaozhi Chen",
+                "Yikun Ban",
+                "Deqing Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26414v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T17:01:00Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139832+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+            "authors": [
+                "Changli Tang",
+                "Jie Yang",
+                "Tianyi Wang",
+                "Lei Li",
+                "Daoze Zhang",
+                "Zijie Xin",
+                "Zhan Liu",
+                "Li Li",
+                "Jinchang Xu",
+                "Fengyun Rao",
+                "Chao Zhang",
+                "Jing Lyu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26409v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:58:15Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139866+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Flow Matching from Non-Gaussian Sources: A Theory of Efficient Sampling",
+            "authors": [
+                "Yuchen Zhou",
+                "Lili Zheng",
+                "Yuxin Chen",
+                "Gen Li"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26407v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:54:03Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139887+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",
+            "authors": [
+                "Oriol Alàs",
+                "Ian Palacín",
+                "Iván Cester",
+                "Edgar Rubión"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26398v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:49:04Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139909+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "World Models Favor Learned Priors over Visual Evidence",
+            "authors": [
+                "Han Xiao",
+                "Zhiyong Bao",
+                "Xiaotong Liu",
+                "Yanhao Chen",
+                "Qingqiang Wu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26366v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:33:02Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139933+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents",
+            "authors": [
+                "K. R. Jayaram",
+                "Vatche Isahagian",
+                "Aswath Vaithinathan Aravindan",
+                "Vinod Muthusamy",
+                "Punleuk Oum",
+                "Gaodan Fang",
+                "Michal Ulewicz",
+                "Gegi Thomas",
+                "Evelyn Duesterwald"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26361v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:29:16Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.139963+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Beam Model Technical Report",
+            "authors": [
+                " Reflection Team",
+                "Adam Abdulhamid",
+                "Osama Abuelsorour",
+                "Yasmin Alameddine",
+                "Carlo Alfano",
+                "Duarte Alves",
+                "Brandon Amos",
+                "Selvaraj Anandaraj",
+                "Arseni Anisimovich",
+                "George Antoniadis",
+                "Ioannis Antonoglou",
+                "Sheila Babayan",
+                "Neeraj Bahl",
+                "Märt Bakler",
+                "Vidhisha Balachandran",
+                "Cameron Banks",
+                "Thibaut Barroyer",
+                "Navroop Bath",
+                "Irwan Bello",
+                "Jeremy Berman",
+                "Fernanda Bernaldo",
+                "Mrityunjay Bhadauria",
+                "Sanyam Bhutani",
+                "Tolga Bolukbasi",
+                "Anudhyan Boral",
+                "Joseph Brennan",
+                "Ethan Brooks",
+                "Sam Buchanan",
+                "Anton Bulyenov",
+                "John Cai",
+                "Catherine Cang",
+                "Eason Chan",
+                "Elijah Chanakira",
+                "Nathan Chandrasekaran",
+                "Hao Chen",
+                "Hong-You Chen",
+                "Jeffrey Chen",
+                "Saurav Chhatrapati",
+                "Ting-Rui Chiang",
+                "Brian Tiger Chow",
+                "Aakanksha Chowdhery",
+                "Timothy Chung",
+                "Rob Claire",
+                "John D. Co-Reyes",
+                "Anthony Conte",
+                "Eduardo Coronado-Montoya",
+                "Julien Crozon",
+                "Drew Csillag",
+                "Joe Cummings",
+                "Jeff Da",
+                "Samira Daruki",
+                "Tim Dawson",
+                "Charlie Deck",
+                "Arash Delijani",
+                "Ousmane Dia",
+                "Randy Dodgen",
+                "Ryan Douglas",
+                "Omar El-Kishky",
+                "Ben Ellis",
+                "Gamaleldin Elsayed",
+                "Simon Fan",
+                "Patrick Fernandes",
+                "Gabriel Ferns",
+                "Nick Fram",
+                "Ankush Garg",
+                "Florent Gbelidji",
+                "Iaroslav Geraskin",
+                "Behrooz Ghorbani",
+                "Ivan Glushkov",
+                "Neil Gollapudi",
+                "Scott Goodfriend",
+                "Yoni Gozlan",
+                "Christopher Grimm",
+                "Suriya Gunasekar",
+                "Shruti Gupta",
+                "Joel Gustafson",
+                "Emre Guven",
+                "Jon Hackmann",
+                "Jeremy Hadidjojo",
+                "Jess Hamrick",
+                "Ethan Hellman",
+                "Joscha Hoche",
+                "Spurthi Amba Hombaiah",
+                "Uzair Honda",
+                "Zijian Hu",
+                "Dzmitry Huba",
+                "Nancy Hung",
+                "Vladimir Ivanov",
+                "Shomik Jain",
+                "Mojan Javaheripi",
+                "Kevin Martin Jose",
+                "Aymen Kallala",
+                "Amog Kamsetty",
+                "Min Hyung Kang",
+                "Steven Kapturowski",
+                "Ramtin Keramati",
+                "Samuel Kessler",
+                "Sabina Kim",
+                "Seonghyeon Kim",
+                "Ivan Komarov",
+                "Agni Kumar",
+                "Thanard Kurutach",
+                "Jessica Landon",
+                "James Larochelle",
+                "Michael Laskin",
+                "Jonathan Lee",
+                "Jonathan Leung",
+                "Chenyu Li",
+                "Haoran Li",
+                "Rongzhao Li",
+                "Michelle Light",
+                "Boyan Lin",
+                "Hai Lin",
+                "Xiayue Charles Lin",
+                "Michael Linden",
+                "Ollie Liu",
+                "Wei Liu",
+                "Zichang Liu",
+                "Brian Lui",
+                "Amr Mahdi",
+                "Raunak Manjani",
+                "Kobe Martin",
+                "Lucas Maystre",
+                "Francis McCann",
+                "Brendan McLaughlin",
+                "Isabel Mehta",
+                "Alishah Momin",
+                "Gerard Moreno-Torres Bertran",
+                "Adriana Murga",
+                "Swarnashree Mysore Sathyendra",
+                "Ashley Nagaki",
+                "Vishal Nandavanam",
+                "Swaroop Nath",
+                "Jake Nations",
+                "Angus Ng",
+                "Thien Nguyen",
+                "Tyler Nichols",
+                "Anaelia Ovalle",
+                "James Pelly",
+                "Michelle Pieszko",
+                "Sashank Pisupati",
+                "Oleksandr Polozov",
+                "Piyush Prasad",
+                "Drew Proud",
+                "Salman Quazi",
+                "Asfandyar Qureshi",
+                "Marko Radmilac",
+                "Mohit Raghavendra",
+                "Vikash Rai",
+                "Ralph Recto",
+                "Anurag Reddy",
+                "Aksel Reedi",
+                "Abby Reider",
+                "David Renardy",
+                "Matthias Reso",
+                "Pierre Roux",
+                "David Rubinstein",
+                "Paul Ruh",
+                "Ildar Safarov",
+                "Himanshu Sahni",
+                "Adrian Samatan",
+                "Simon Sandrew",
+                "Adriel Saporta",
+                "Rohan Savargaonkar",
+                "Vlad Savinov",
+                "Nick Schank",
+                "Jonathon Schwartz",
+                "Tim Seah",
+                "Ahmad Sharif",
+                "Miriam Shlimovich",
+                "Hamid Shojanazeri",
+                "Yusuf Sindi",
+                "Teak Sittipunt",
+                "Kurt Smith",
+                "Nicolas Sonnerat",
+                "Joe Spisak",
+                "Raunak Srivastava",
+                "Richard Steigerwald",
+                "Adam Stein",
+                "Stu Stewart",
+                "Arnaud Stiegler",
+                "Jingtong Su",
+                "Alicia Sun",
+                "Zoey Sun",
+                "Jakub Sygnowski",
+                "Douglas Teixeira",
+                "Chetan Tekur",
+                "Zachary Tellman",
+                "Helen Thatcher",
+                "Romal Thoppilan",
+                "Anil Tolwani",
+                "Konstantin Topaloglou-Mundy",
+                "Dmitry Ulyumdzhiev",
+                "Meet Vadakkanchery",
+                "Christopher Vanderschuere",
+                "Balaji Varadarajan",
+                "Rohan Varma",
+                "Balaji Veeramani",
+                "Andreas Verdelis",
+                "Risto Vuorio",
+                "Tom Walshe",
+                "Allen Wang",
+                "Ewen Wang",
+                "Taiyi Wang",
+                "Zach Wentz",
+                "Peter Wiese",
+                "Travis Wilson",
+                "Jason Winters",
+                "Sam Wiseman",
+                "Arvin Wu",
+                "Jin Wu",
+                "Kai Wu",
+                "Kenneth Xu",
+                "Mira Yadav",
+                "Xianjun Yang",
+                "Yao-Yuan Yang",
+                "Xiaolan You",
+                "Renault Young",
+                "Christina Yu",
+                "Biao Zhang",
+                "Gavin Zhang",
+                "Mingrui Zhang",
+                "Shenao Zhang",
+                "Jiesi Zhao",
+                "Mengjun Zhao",
+                "Xingchen Zhao",
+                "Mike Zhou",
+                "Tong Zhou",
+                "Zhenpeng Zhou",
+                "Tina Zhu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26358v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:28:23Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140417+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Context as a Resource",
+            "authors": [
+                "Xufei Tian",
+                "Han Hu",
+                "Wenli Du"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26346v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:19:56Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140436+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "DeepQuest: From Knowledge Gaps to Scientific Discovery in Alzheimer's Disease",
+            "authors": [
+                "Chunbo Jiang",
+                "Yifei Chen",
+                "Beining Wu",
+                "Fuyou Mao",
+                "Weihong Chen",
+                "Enyu Bao",
+                "Mingxuan Liu",
+                "Feiwei Qin",
+                "Qiyuan Tian"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26343v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:18:26Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140479+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Training LLMs to Follow Reasoning Instructions with Minimal Edits",
+            "authors": [
+                "Alexandra Yakovleva",
+                "Luat Gia Khoi Nguyen",
+                "Juho Kannala",
+                "Harri Valpola",
+                "Alexander Ilin"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26342v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:18:25Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140502+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Sirius-Tiamat: How Small Can a One-Pass Decision Encoder Get Before Its Decisions Change?",
+            "authors": [
+                "Mohammed Nayeem Khan",
+                "Vrishank Tiwari"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26339v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:17:13Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140521+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+            "authors": [
+                "Asif Shahriyar Sushmit",
+                "Shefayat E Shams Adib",
+                "Abdullah Al Jubaer Gem",
+                "Ahmed Shafin Ruhan",
+                "MD. Nazmuddoha Ansary",
+                "Biplab Kumar Sarkar",
+                "Syed Rifat Raiyan",
+                "Ajwad Abrar",
+                "Abdullah Bin Hasan",
+                "Adib Sakhawat",
+                "M. Sakeef Hossain",
+                "Ahmed Alfey Sani",
+                "Arefin Mizan",
+                "Sourab Chakma",
+                "Quazi Adibur Rahman Adib",
+                "Wassie Haque",
+                "Sanjay Kumar Sen",
+                "Saad Tahmid",
+                "Mohammad Mamun Or Rashid"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26336v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:15:38Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140567+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ClosureBench: A Benchmark for Reasoning under Closure Assumptions",
+            "authors": [
+                "Francesco Belardinelli",
+                "Flavio Corradini",
+                "Matteo Leonesi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26335v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:15:04Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140585+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Online Temporal Rotations for 2 Bit KV-Cache Quantization in Video Diffusion Transformers",
+            "authors": [
+                "Ryan Lucas",
+                "Petros Prastakos",
+                "Rahul Mazumder"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26334v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:14:13Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140604+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Rigel-Ladon: An Option-Count Law for a One-Pass Decision Encoder, Tested on Held-Out Option Counts and Held-Out Schemas",
+            "authors": [
+                "Mohammed Nayeem Khan",
+                "Vrishank Tiwari",
+                "Navin Kumar R"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26332v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:12:55Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140622+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "A Control-Theoretic Approximation to Predictive Coding Dynamics",
+            "authors": [
+                "Ryan Fayyazi",
+                "Kyle Daruwalla",
+                "Mitra Javadzadeh"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26319v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:04:50Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140640+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology",
+            "authors": [
+                "Esha Sadia Nasir",
+                "Jiaqi Lv",
+                "Gozde N. Gunesli",
+                "Shan E Ahmed Raza"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26316v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:03:54Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140659+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Actor-Predictor Architecture for Reinforcement Learning with Formal Specification Objectives",
+            "authors": [
+                "Josef Brozovich",
+                "Qining Zhang",
+                "Lei Ying"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26313v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T16:03:02Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140676+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Client Exits - A Way to Increase LLM Transparency on the Client Side",
+            "authors": [
+                "Marc Jansen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26309v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:58:09Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140690+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "A Tensor-Algebraic No-Go Theorem for High-Dimensional Photonic Greenberger--Horne--Zeilinger States Discovered with AlphaProof Nexus",
+            "authors": [
+                "Mario Krenn",
+                "Moritz Firsching",
+                "George Tsoukalas",
+                "Rishikesh Gajjala",
+                "Xuemei Gu",
+                "Swarat Chaudhuri"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26300v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:51:44Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140712+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+            "authors": [
+                "Ilya Gusev"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26286v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:45:51Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140729+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "What If Chain-of-Thought Is Not Enough?",
+            "authors": [
+                "Marc Jansen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26282v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:43:51Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140743+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Digitization of Analogue Gauges using Computer Vision",
+            "authors": [
+                "Erico Kayumba Mutonkole",
+                "Olasupo Ajayi",
+                "Omowunmi Isafiade"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26262v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:33:49Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140760+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Similarity-based OSF Logic for Flexible SPARQL Query Answering",
+            "authors": [
+                "Gian Carlo Milanese",
+                "Gabriella Pasi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26261v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:33:21Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140776+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills",
+            "authors": [
+                "Anjie Xu",
+                "Zixing Wang",
+                "Yifeng Cai",
+                "Leye Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26256v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:30:28Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140796+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "STAGE: Spatio-Temporal Augmented Graph Expansion for Weakly Supervised Cross-Tweet Event Causality Discovery",
+            "authors": [
+                "Hieu Minh Duong",
+                "Todd Gary",
+                "Eugene Levin",
+                "Long Nguyen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26255v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:28:46Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140818+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "The Stability Gap in Continual Reinforcement Learning",
+            "authors": [
+                "Sebastian Pusch",
+                "Matthia Sabatelli",
+                "Gido M. van de Ven"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26252v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:26:41Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140834+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+            "authors": [
+                "Yang Wan",
+                "Linchao Zhu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26248v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:25:34Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140850+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "FastRoverVLA: Fast Vision-Language-Action Execution for Off-Road Autonomous Driving",
+            "authors": [
+                "Changtao Zhao",
+                "Yingxue Guan",
+                "Li Wang",
+                "Shijie Zhao",
+                "Yuhang Zhang",
+                "Shengkai Zhang",
+                "Qing Wang",
+                "Ziying Song"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26242v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:23:14Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140875+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Physics-Informed Feature Representations and Pretrained Tabular Foundation Models for Generalizable Melt Pool Geometry Prediction",
+            "authors": [
+                "Rafid Enayet",
+                "Imtiaz Ahmed",
+                "Md Habibor Rahman"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26235v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:09:41Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140893+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+            "authors": [
+                "Zihao Xu",
+                "Yuekang Li",
+                "Ruitao Feng",
+                "Haifeng Shen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26221v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T15:00:25Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140910+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Reward misalignment as an opportunity for materials discovery",
+            "authors": [
+                "Ryotaro Okabe",
+                "Shoki Kishida",
+                "Abhijatmedhi Chotrattanapituk",
+                "Dominic Bollettieri",
+                "Takuya Isogawa",
+                "Yongqiang Cheng",
+                "Mingda Li",
+                "Masaki Adachi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26186v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T14:36:15Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140935+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "RegionAgent: Two-Stage Preference Optimization for Regional Image Restoration",
+            "authors": [
+                "Weiyu Zhou",
+                "Jiacong Tang",
+                "Tao Hu",
+                "Axi Niu",
+                "Jinqiu Sun",
+                "Peng Wu",
+                "Wei Dong",
+                "Qingsen Yan"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26179v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T14:29:56Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140959+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "SpatialScout-V2: Can VLM Agents Actively Explore Real-World 3D Scenes and Localize Objects?",
+            "authors": [
+                "Zhaoxi Zhang",
+                "Hao Liang",
+                "Linxuan Wu",
+                "Yiming Xu",
+                "Yifu Yuan",
+                "Kun Liang",
+                "Chenming Tang",
+                "Meiyi Qiang",
+                "Wentao Zhang",
+                "Weikang Li",
+                "Yunfang Wu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26177v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T14:28:18Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.140988+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Budget Internalization: Fixed-Budget RLVR Trades Test-Time Scaling for In-Budget Accuracy",
+            "authors": [
+                "Ilia Zavidnyi",
+                "Alexander Kovrigin",
+                "Arina Puchkova",
+                "Kirill Gelvan",
+                "Sergey Titov"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26172v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T14:20:41Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141010+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "The FrontierOR Challenge: Agentic Algorithm Design for Operations Research",
+            "authors": [
+                "Hai Wang",
+                "Bretislav Hajek",
+                "Chonghe Jiang",
+                "Minwei Kong",
+                "Ao Qu",
+                "Huatian Gong",
+                "Bo Dong",
+                "Cynthia Barnhart",
+                "Jinhua Zhao"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26171v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T14:20:27Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141036+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Sage-Evolve-Preview:Adaptive Observation for Post-Training Self-Improvement",
+            "authors": [
+                "Yinhao Tang",
+                "Youqing Fang",
+                "Yanan Sun",
+                "Xintian Shen",
+                "Hanyu Sun",
+                "Wenran Liu",
+                "Yue Wu",
+                "Weiming Zhang",
+                "Bin Liu",
+                "Wenwei Zhang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26132v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:52:46Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141063+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ChronoPatch: Black-Box Energy-Latency Attacks on Vision-Language Models",
+            "authors": [
+                "Jiawei Xing",
+                "Li Wang",
+                "Xiangtao Meng",
+                "Chuanchao Zang",
+                "Rui Wen",
+                "Zheng Li"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26117v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:45:20Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141084+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "SenseAlign: Learning Decision-Aligned Predictive Representations for Active Urban Sensing with UAVs",
+            "authors": [
+                "Weijiang Xiong",
+                "Nikolas Geroliminis"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26109v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:38:56Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141099+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Pareto-Optimal and Strategyproof Data-Sharing Between Competitors",
+            "authors": [
+                "Morgan Colin-Mourre",
+                "Felipe Garrido-Lucero",
+                "Patrick Loiseau"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26108v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:38:19Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141115+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+            "authors": [
+                "Jiahao Hu",
+                "Jingdong Du",
+                "Yichen Zhang",
+                "Yi Song",
+                "Zhenyu Zhang",
+                "Jiaxin Niu",
+                "Ruihang Li",
+                "Xiangzhao Hao",
+                "Yiqian Zhang",
+                "Yong Huang",
+                "Zefeng Zhang",
+                "Zheyuan Gu",
+                "Shuohuan Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26107v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:37:47Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141151+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Reference-Twist-Based Velocity-Domain Spatiotemporal Calibration for mmWave Radar, Event Camera, and IMU",
+            "authors": [
+                "Zhenghao Zou",
+                "Yang Lyu",
+                "Xiaohu Guo",
+                "Chunhui Zhao",
+                "Quan Pan"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26083v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:24:01Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141173+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Controlling the Humanoid Robot H1-2 With a Simulated Biologically Plausible Network",
+            "authors": [
+                "Fatima Atwi",
+                "Constant Roux",
+                "Christian Bergaud",
+                "Olivier Stasse"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26074v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:16:22Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141191+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+            "authors": [
+                "Nagham Omar",
+                "Rotem Dror",
+                "Almog Gueta",
+                "Avigdor Gal",
+                "Roi Reichart",
+                "Nitay Calderon"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26073v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:15:13Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141212+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "GenSPARQL: A Generative Extension of SPARQL for Incomplete Knowledge Graphs",
+            "authors": [
+                "Jingcheng Wu",
+                "Yi Wang",
+                "Hongkuan Zhou",
+                "Steffen Staab",
+                "Bo Xiong"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26062v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T13:06:33Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141232+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
+            "authors": [
+                "Anamaria Mojica-Hanke",
+                "Tessi Aigbovbiosa-Igbinovia",
+                "Steffen Herbold"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26050v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:57:53Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141250+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines",
+            "authors": [
+                "Dohyeon Kwon"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26033v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:43:31Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141264+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Serialization Tax in Shared-Latent Exchangeable Decisions",
+            "authors": [
+                "Siming Zhang",
+                "Zhehui Shen",
+                "Shijie Chen",
+                "Xinle Gu",
+                "Yansen Yu",
+                "Hang Yu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26029v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:39:21Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141284+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
+            "authors": [
+                "Yuchen Sun",
+                "Siyuan Cheng",
+                "Shi-Zhe Chen",
+                "Yixin Qin",
+                "Jinwen Luo",
+                "Zheng Wei"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26024v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:37:52Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141304+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "A Task-Level Bias Taxonomy for Historical Image Retrieval",
+            "authors": [
+                "Omkar Gavali",
+                "Ratan Sebastian",
+                "Christoph Rippe",
+                "Ralph Ewerth",
+                "Anett Hoppe"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26019v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:34:22Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141323+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Does the Workspace Do the Work? A Causal Protocol for Verifying Global-Workspace Computation in a Language Model",
+            "authors": [
+                "Diaoxuan He",
+                "Linqian Wu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26018v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:33:35Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141341+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "When Agents Play Differently: Localizing Human--Agent Behavioral Divergence with Conditional Distributional Testing",
+            "authors": [
+                "Oleg Smirnov",
+                "John Pertoft",
+                "Sara Karimi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26012v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:29:35Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141359+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "System-One RSI: Building Muscle Memory for Interactive Agents through Guided Practice",
+            "authors": [
+                "Qingxu Fu",
+                "Xuanfa Jin",
+                "Ziqian Chen",
+                "Zhaoyang Liu",
+                "Bolin Ding"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26007v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:27:36Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141379+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "AI agents can redesign engineering parts with more than a thousand CAD parameters and nonlinear simulations",
+            "authors": [
+                "Alexandra Starostina",
+                "Alexander Hermann",
+                "Mahish Guru",
+                "Kartik Bali",
+                "Roland Aydin",
+                "Christian C. Cyron"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.26003v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:21:21Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141400+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "From AI Surrogate to Engineering Tool: Toward Production Use of Fiber-Orientation Prediction in Crash CAE",
+            "authors": [
+                "Osamu Ito",
+                "Yoshikazu Nakagawa",
+                "Tomoaki Tatsukawa"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25991v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:12:45Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141419+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Policy Improvement-Guided Replay for Continual Reinforcement Learning",
+            "authors": [
+                "Qin-Wen Luo",
+                "Haoxuan Gao",
+                "Sheng Ren",
+                "Xiang Chen",
+                "Sheng-Jun Huang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25989v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:12:19Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141440+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Law at the Speed of AI: Critical Legal Infrastructure for the Machine Age: Autonomy Under Law Architecture (AULA)",
+            "authors": [
+                "Natasha E Blycha",
+                "James Myint",
+                "Chen Feng",
+                "Dr Amani Soysa",
+                "Koshin Jama",
+                "Schellie-Jayne Price",
+                "Matthew Blycha"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25985v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:09:19Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141464+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Safe Subgame Resolving in Multiplayer Games",
+            "authors": [
+                "Boning Li",
+                "Longbo Huang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25981v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:04:23Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141479+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Multi-View Transformer with Geometry-Guided Multi-Modal ControlNet for 3D Virtual Try-On",
+            "authors": [
+                "Sarthak Batra",
+                "Armin Mustafa",
+                "Adrian Hilton"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25979v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:03:04Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141498+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Energy estimates of open-weight large language models across stated food weights: a dose-response evaluation",
+            "authors": [
+                "Donato Riccio",
+                "Fabrizio Maturo",
+                "Iulia Brezeanu"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25976v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T12:00:23Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141515+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Soft biological and bio-inspired materials",
+            "authors": [
+                "Livio Nicola Carenza",
+                "Giuseppe Negro",
+                "Adriano Tiribocchi"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25959v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:47:18Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141532+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Web search in Latin America: language models use less local and diverse news than search engines",
+            "authors": [
+                "Francisco W. Kerche",
+                "Franziska Sofia Hafner",
+                "Felix M. Simon",
+                "Luc Rocher"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25955v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:43:22Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141551+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "GaussTrans: A Gaussian Interface Framework for Multi-Layer Refractive Transport",
+            "authors": [
+                "Zixuan Zhao",
+                "Tao Wang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25950v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:37:41Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141565+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Coordinated Offloading: Cooperative Multi-Agent Reinforcement Learning for the Edge-Cloud Continuum",
+            "authors": [
+                "Muhammad Rafid",
+                "Golshan Famitafreshi",
+                "Vasilis Avgerinos",
+                "Kostas Ramantas",
+                "Christos Verikoukis"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25932v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:18:55Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141586+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+            "authors": [
+                "Yao Zhang",
+                "Bin Yu",
+                "Shijie Lian",
+                "Haishan Liu",
+                "Changti Wu",
+                "Yu Wu",
+                "Kai Chen"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25927v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:09:58Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141610+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "ROAM-GRPO: Enforcing Reasoning Diversity in GRPO via Routed Off-mode Approach Mining",
+            "authors": [
+                "Jeff Duan",
+                "Matt Thomson"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25926v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:09:34Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141625+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Ground Truth Bias in AI-Assisted Medical Annotation: A Crossover Study Using an Independent Radiologist Reference Standard",
+            "authors": [
+                "Márton Baltay",
+                "Tamás Ilcsik",
+                "Márton Borbély"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25924v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:08:39Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141643+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Many Solutions, One Answer: Search Order Shapes the Default Solutions of Language Models",
+            "authors": [
+                "Qinhan Hou",
+                "Jing Tang"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25916v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T11:03:58Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141659+00:00"
+    },
+    {
+        "schemaVersion": "1.0",
+        "recordType": "RESEARCH_PAPER",
+        "content": {
+            "title": "Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+            "authors": [
+                "Shai Gretz",
+                "Alon Halfon",
+                "Yoav Katz",
+                "Lena Dankin",
+                "Michal Jacovi",
+                "Rachel Tzoref-Brill",
+                "Kfir Toledo",
+                "Elron Bandel",
+                "Natan Ergas",
+                "Michal Malka",
+                "Pravein Govindan Kannan",
+                "Maroon Ayoub",
+                "Michal Shmueli-Scheuer"
+            ],
+            "paper_url": "http://arxiv.org/abs/2611.25905v1",
+            "github_url": null,
+            "github_stars": null,
+            "published_date": "2026-11-19T10:54:57Z"
+        },
+        "collectedAt": "2026-11-21T08:06:58.141688+00:00"
+    }
+]

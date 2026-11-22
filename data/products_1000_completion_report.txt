@@ -1,0 +1,97 @@
+GraphOne Data Intelligence — 1,000 AI Product Verification
+Generated at: 2026-11-22T07:49:27.160239+00:00
+
+Existing combined baseline audited: 745
+Existing baseline verified: 526
+Additional candidates reviewed: 1422
+Newly discovered products verified: 474
+Total verified unique products: 1000
+Remaining to target: 0
+Manual check: 852
+Rejected: 315
+Confirmed duplicate records excluded: 202
+Possible name/domain collisions sent to manual check: 21
+Website verification failures or incomplete checks (excluding duplicate skips): 164
+Reviewed records with strong first-party AI evidence: 1344
+Verified records with strong first-party AI evidence: 1000
+Reviewed records without sufficient first-party AI evidence: 823
+New directory listings parsed: 0
+Directory listings skipped by robots.txt: 0
+Transient request retries: 0
+
+Verified products by primary source:
+- AI Product Index: 79
+- Aixploria: 10
+- FutureTools: 238
+- Futurepedia: 188
+- Ignlab: 482
+- Launch Llama: 1
+- Mydentify: 2
+
+Output files:
+- products_1000_verified.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_verified.json
+- products_1000_verified.csv: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_verified.csv
+- products_1000_verification_evidence.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_verification_evidence.json
+- products_1000_manual_check.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_manual_check.json
+- products_1000_rejected.json: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_rejected.json
+- products_1000_duplicate_log.csv: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_duplicate_log.csv
+- products_1000_completion_report.txt: C:\Users\venka\Documents\GraphOne-Data-Intelligence\data\products_1000_completion_report.txt
+
+Validation
+- Verified JSON count: 1000
+- Verified CSV data rows: 1000
+- Evidence entries linked to verified records: 1000
+- Unique normalized names: 1000
+- Unique normalized domains: 1000
+- All source dataset hashes checked unchanged.
+
+Method and limitations
+- Approval required a matching product identity, specific AI-task evidence in first-party page text, description overlap, a current availability signal, a permitted/valid source listing URL, and no unresolved duplicate/domain collision.
+- Generic AI keywords, directory SEO titles, HTTP 200 alone, and source descriptions alone were not treated as AI proof.
+- Robots-disallowed, robots-unverified, inaccessible, ambiguous, or eligibility-uncertain products remain MANUAL_CHECK.
+- AI infrastructure or general developer platforms with uncertain collection eligibility remain MANUAL_CHECK.
+- The availability check establishes a live first-party offering signal; it is not an independent audit of release cadence or corporate status.
+- Previously rejected records were not restored without new first-party evidence that resolves the original rejection reason.
+- If the verified total is below 1,000, no records were fabricated or promoted to close the gap.
+
+Website verification failures (first 40):
+- AutoTasker: ROBOTS_UNVERIFIED HTTP None — ROBOTS_UNKNOWN_HTTP_502
+- Publora – Social Media Scheduler: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Friday Invoice Chase Ranker: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /friday-invoice-chase-tool/
+- Cookie Hive (Give You Cookie Give Me Cookie): ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /join
+- CCC — Claude Command Center: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- fetch402: ROBOTS_UNVERIFIED HTTP None — ROBOTS_UNKNOWN_HTTP_530
+- AIHOT: FETCH_ERROR HTTP None — HTTPSConnectionPool(host='aihot.news', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='aihot.news', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+- Honeypot: ROBOTS_UNVERIFIED HTTP None — ROBOTS_ERROR: HTTPSConnectionPool(host='honeypot-e6c.pages.dev', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError("HTTPSConnection(host='honeypot-e6c.pages.dev', port=443): Failed to resolve 'honeypot-e6c.pages.dev' ([Errno 11001] getaddrinfo failed)"))
+- Machine Room: HTTP_ERROR HTTP 500 — Official website returned HTTP 500.
+- Obol Blockchain Data: ROBOTS_UNVERIFIED HTTP None — ROBOTS_UNKNOWN_HTTP_530
+- Question Machine: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- FXMacroData: HTTP_ERROR HTTP 403 — Official website returned HTTP 403.
+- N3mak AI Gateway: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Tabentic: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Dropchat: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Ginzi: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Book AI Writer: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Glasshand: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Dr. Gupta: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Goodmeetings: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- FileGPT: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Token Wise: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Arguseye: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /arguseye
+- LetsView Chat: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /chatbot
+- type.com: ROBOTS_UNVERIFIED HTTP None — ROBOTS_ERROR: HTTPSConnectionPool(host='type.com', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError("HTTPSConnection(host='type.com', port=443): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+- Free AI Chatbot Builder: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Refraction: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- ContentBot: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- SlidesAI: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Motiff: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- FaceFusion: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Leya: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Coinfeeds: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Box: MISSING_OR_INVALID_URL HTTP None — Product name or valid public website URL is missing.
+- GAJIX: MISSING_OR_INVALID_URL HTTP None — Product name or valid public website URL is missing.
+- Panax Tech: MISSING_OR_INVALID_URL HTTP None — Product name or valid public website URL is missing.
+- KAI: MISSING_OR_INVALID_URL HTTP None — Product name or valid public website URL is missing.
+- OpenCity: ROBOTS_DISALLOWED HTTP 301 — robots.txt disallows access to /
+- Videoclaw: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /
+- Naseem: ROBOTS_DISALLOWED HTTP None — robots.txt disallows access to /naseem-app

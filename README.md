@@ -46,7 +46,7 @@ Structured Data (JSON / CSV)
 
 ## 📂 Repository Structure
 
-The intended project layout is:
+The checked-in project layout is:
 
 ```text
 GraphOne-Data-Intelligence/
@@ -61,7 +61,8 @@ GraphOne-Data-Intelligence/
 └── FINAL_ASSESSMENT_COMPLETION_REPORT.md
 ```
 
-The exact directory contents should be confirmed against the local project before publication.
+The `data/` directory also retains source snapshots and manual-review artifacts used during
+collection. `deliverables/` contains the six CSV files corresponding to the six workbook tabs.
 
 ## ⚙️ Getting Started
 
@@ -93,7 +94,18 @@ Copy `.env.example` to `.env` and add your own provider keys if needed. Keep `.e
 
 ### 5. Run the pipeline
 
-Use the entry point and commands documented in the source code and assessment report. Confirm the expected command names against the checked-out project before running.
+Run the primary collection and export workflow from the repository root:
+
+```powershell
+python src\main.py
+```
+
+Generate the architecture PDF and Excel workbook with:
+
+```powershell
+python src\create_architecture_pdf.py
+python src\create_xlsx_deliverable.py
+```
 
 ## 📊 Assessment Deliverables
 
@@ -109,7 +121,18 @@ The local assessment package is intended to include:
 | Entity Mapping Log | Canonical entity-resolution decisions |
 | Excel Workbook | Six tabs covering the above datasets |
 | Architecture PDF | System design and scaling approach |
-| Completion Report | Requirement-by-requirement status and validation |
+| [Completion Report](FINAL_ASSESSMENT_COMPLETION_REPORT.md) | Requirement-by-requirement status and validation |
+
+The bundled package also includes:
+
+- [Architecture PDF](architecture.pdf)
+- [Six-tab Excel workbook](GraphOne_Assessment_Deliverables.xlsx)
+- [Six CSV deliverables](deliverables/)
+- [Entity-resolution and collection data](data/)
+
+The latest recorded local snapshot contains 1,000 startups, 1,000 verified products,
+1,000 enriched research papers, 3 eligible news records, and 184 eligible job records.
+Counts from later monitoring runs may change as source activity changes.
 
 ## ✅ Data Quality & Responsible Collection
 
@@ -146,7 +169,9 @@ Test results should be refreshed against the exact commit being submitted.
 
 ## 📌 Current Publication Status
 
-This README is the initial repository landing page. The source code, datasets, tests, workbook, architecture PDF, and final report still need to be uploaded from the local project folder. Repository completeness and assessment targets should only be claimed after those files are published and independently checked.
+The repository includes the project source, data snapshots, tests, six CSV deliverables,
+Excel workbook, architecture PDF, and completion report. Source availability and rolling
+news/job counts can change on subsequent runs.
 
 ## 📄 License
 
