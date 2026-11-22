@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -70,22 +71,37 @@ def test_llm_fallback_order_is_gemini_groq_deepseek():
     assert any(event["provider"] == "groq" and event["status"] == "success" for event in result["events"])
 
 
+def test_llm_loads_provider_keys_from_dotenv(monkeypatch, tmp_path):
+    (tmp_path / ".env").write_text("GEMINI_API_KEY=test-only-value\n", encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+
+    LLMFallback()
+
+    assert os.environ["GEMINI_API_KEY"] == "test-only-value"
+
+
 def test_llm_413_triggers_chunking(monkeypatch):
-    llm = LLMFallback(max_chunk_chars=100)
+    llm = LLMFallback(max_chunk_chars=400)
     response = requests.Response()
     response.status_code = 413
+    attempted_lengths = []
 
-    def gemini_413(prompt):
-        raise requests.HTTPError("413", response=response)
+    def gemini_chunked(prompt):
+        attempted_lengths.append(len(prompt))
+        if len(prompt) > 200:
+            raise requests.HTTPError("413", response=response)
+        return "chunk result"
 
-    llm._gemini = gemini_413
+    llm._gemini = gemini_chunked
     llm._groq = lambda prompt: "groq fallback"
     llm._deepseek = lambda prompt: "deepseek fallback"
-    monkeypatch.setattr(llm, "_gemini", gemini_413)
     result = llm.generate("x" * 220)
     assert result["success"]
-    assert any(event["status"] == "chunked" for event in result["events"]) or any(
-        event["status"] == "success" for event in result["events"])
+    assert result["provider"] == "gemini"
+    assert attempted_lengths[0] == 220
+    assert all(length <= 200 for length in attempted_lengths[1:])
+    assert any(event["status"] == "chunked" for event in result["events"])
 
 
 def test_llm_429_uses_backoff_before_fallback(monkeypatch):
@@ -101,10 +117,10 @@ def test_llm_429_uses_backoff_before_fallback(monkeypatch):
     llm._deepseek = lambda prompt: "deepseek fallback"
     sleeps = []
     monkeypatch.setattr("src.llm.llm_orchestrator.time.sleep", sleeps.append)
+    monkeypatch.setattr("src.llm.llm_orchestrator.random.uniform", lambda lower, upper: 0.25)
     result = llm.generate("short prompt")
     assert result["success"]
-    assert len(sleeps) == 3
-    assert all(delay >= 1.0 for delay in sleeps)
+    assert sleeps == [1.25, 2.25, 4.25]
 
 
 def test_monitor_source_coverage_and_canonical_deduplication():

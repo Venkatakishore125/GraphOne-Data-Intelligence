@@ -1,8 +1,10 @@
 import os
 import random
 import time
+from pathlib import Path
 from typing import Callable
 
+from dotenv import load_dotenv
 import requests
 
 from .text_chunker import chunk_text
@@ -12,6 +14,7 @@ class LLMFallback:
     PROVIDERS = ("gemini", "groq", "deepseek")
 
     def __init__(self, timeout: float = 30.0, max_chunk_chars: int = 12000):
+        load_dotenv(Path.cwd() / ".env")
         self.timeout = timeout
         self.max_chunk_chars = max_chunk_chars
         self.events: list[dict] = []
@@ -75,6 +78,13 @@ class LLMFallback:
                             for smaller_index, smaller in enumerate(smaller_chunks):
                                 try:
                                     smaller_output.append(functions[provider](smaller))
+                                    self.events.append({
+                                        "provider": provider,
+                                        "chunk": chunk_index,
+                                        "subChunk": smaller_index,
+                                        "attempt": attempt + 1,
+                                        "status": "success",
+                                    })
                                 except Exception:
                                     smaller_output = []
                                     break

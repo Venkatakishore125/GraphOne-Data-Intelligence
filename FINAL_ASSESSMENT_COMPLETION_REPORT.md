@@ -1,125 +1,80 @@
-# GraphOne Data Intelligence — Final Assessment Completion Report
+# GraphOne Data Intelligence — Final Assessment Report
 
 Report date: 2026-11-22
 
 ## Executive summary
 
-The core local assessment artifacts are complete and validated. The project preserves the existing
-1,000-startup, 1,000-product, and 1,000-research-paper datasets. Monitoring, fallback, entity resolution,
-async crawling, architecture documentation, spreadsheet exports, README, tests, and final validation
-are implemented. External credentials and a Google/GitHub account were not available in the environment,
-so publication actions are explicitly marked blocked.
+The local project was reviewed, cleaned conservatively, and validated. Verified datasets, product verification evidence, monitoring snapshots, entity-mapping data, and useful manual-review/rejection history are retained. Confirmed duplicate/obsolete backup modules and unused empty Python modules were archived outside the repository before removal.
 
-## Requirement status
+The existing public repository is [Venkatakishore125/GraphOne-Data-Intelligence](https://github.com/Venkatakishore125/GraphOne-Data-Intelligence). Its previously verified `main` publication commit was `f206040` (`Upload complete GraphOne project`). This cleanup and documentation update was published as a normal follow-on commit to `main`, preserving remote history; the final push and tree were verified after publication.
+
+## Status
 
 | Requirement | Status | Evidence |
 |---|---|---|
-| Project inspection | Completed | Existing data and source modules reviewed; placeholder modules identified |
-| 1,000 AI startups | Completed | `data/startups.json`: 1,000; 1,000 unique names |
-| 1,000 AI products | Completed | `data/products_1000_verified.json`: 1,000; 1,000 unique names/domains |
-| 1,000 AI research papers | Completed | `data/research_papers_enriched.json`: 1,000; 1,000 unique titles |
-| Five AI news sources | Completed | `src/scrapers/news_monitor.py`; 7 configured public feeds |
-| Five AI job boards | Completed | `src/scrapers/job_monitor.py`; 5 configured public APIs |
-| 24-hour filtering | Completed | UTC normalization and cutoff filtering implemented |
-| Full available text | Completed / Limited | Article/feed text extraction where permitted; source summaries retained as fallback |
-| Date normalization | Completed | UTC ISO timestamps in news and jobs outputs |
-| LLM fallback order | Completed | Gemini, Groq, DeepSeek in `src/llm/llm_orchestrator.py` |
-| HTTP 413 chunking | Completed | `src/llm/text_chunker.py` and orchestrator tests |
-| HTTP 429 backoff/jitter | Completed | Exponential delay plus random jitter |
-| API-key safety | Completed | Environment variables; no secrets in source |
-| Entity resolution | Completed | 50 canonical seeds; 3,000 source mapping rows |
-| Asynchronous crawler | Completed | `src/scrapers/async_crawler.py` with robots, limits, timeouts |
-| Architecture PDF | Completed | 3 pages; `architecture.pdf` |
-| Six spreadsheet tabs | Completed | Excel and six CSV fallback files |
-| README | Completed | `README.md` |
-| GitHub readiness | Completed / Blocked | No API keys, credentials, or Git executable/remote were available |
-| Google publication | Blocked | Clean Excel/CSV outputs prepared; no Google account access |
+| GitHub publication | Completed | Public repository and prior verified commit `f206040`; this update is a non-force-push follow-on |
+| Google Sheets publication | Pending | No Google Sheets publication was performed |
+| Gemini live API call | Pending / not tested | Implementation exists; no successful live call is claimed |
+| Groq live integration | Pending | Requires an authorized key and live test |
+| DeepSeek live integration | Pending | Requires an authorized key and live test |
+| Automated tests | Passed | 10 tests passed in the local project virtual environment |
+| Compile check | Passed | `python -m compileall -q src tests` |
 
-## Actual record counts
+## Dataset and snapshot counts
 
-| Dataset | Count | Validation |
+| Dataset | Records | Validation |
 |---|---:|---|
-| Startups | 1,000 | 1,000 unique normalized names; source URLs present |
-| Products | 1,000 | 1,000 unique normalized names/domains |
-| Research papers | 1,000 | 1,000 unique normalized titles; paper URLs present |
-| News in rolling 24-hour window | 3 | All successful feeds checked; only The Verge had eligible rows |
-| Job listings in rolling 24-hour window | 184 | 101 Arbeitnow, 12 Himalayas, 71 Jobicy; 184 unique URLs |
-| Entity mappings | 3,000 | 1000 startups + 1000 products + 1000 papers |
-| Architecture PDF | 3 pages | PDF read-back passed |
-| Workbook tabs | 6 | Exactly the required tab names |
+| Startups | 1,000 | Unique normalized names and valid HTTP(S) source URL syntax |
+| Verified AI products | 1,000 | Unique product names and website domains; valid HTTP(S) website syntax |
+| Research papers | 1,000 | Unique titles and valid HTTP(S) paper URL syntax |
+| News snapshot | 3 | Captured 2026-11-22; unique URLs; records within 24 hours of collection |
+| Job snapshot | 184 | Captured 2026-11-22; unique URLs; records within 24 hours of collection |
+| Entity mapping | 3,000 | 1,000 startup, product, and paper rows |
 
-## News and job source results
+Latest news sources: The Verge AI (3 records). Latest job sources: Arbeitnow (101), Himalayas (12), and Jobicy (71). These are rolling snapshots; future runs may produce different results.
 
-News sources configured:
+Source URLs were syntax-validated, not tested for ongoing remote availability. No records were fabricated to fill a target.
 
-- MIT Technology Review
-- TechCrunch AI
-- The Verge AI
-- Hugging Face Blog
-- Ars Technica
-- OpenAI News
-- Google AI
+## Deliverables and validation
 
-Job sources configured:
+- Six CSV exports are present in `deliverables/`.
+- `GraphOne_Assessment_Deliverables.xlsx` has exactly six required worksheets.
+- `architecture.pdf` has three pages.
+- Product verification evidence remains in `data/products_1000_verification_evidence.json`.
+- The existing data review and rejection artifacts are retained for traceability.
+- LLM fallback order and mocked behavior are covered by tests. No live provider call is claimed.
 
-- Arbeitnow
-- RemoteOK
-- Remotive
-- Himalayas
-- Jobicy
+## Cleanup and archive
 
-The current run found 3 eligible news records and 184 eligible AI-relevant job records. Source/API
-errors were 0. No fake records were created. Source failures and successful run errors are recorded in:
+Before removing project files, a dated archive was created outside the repository:
 
-- `data/news_last_24h_errors.json`
-- `data/jobs_last_24h_errors.json`
+`C:\Users\venka\Documents\GraphOne-Data-Intelligence-cleanup-20261122.zip`
 
-## Generated files
+Archived project files removed from the working tree:
 
-- `architecture.pdf`
-- `GraphOne_Assessment_Deliverables.xlsx`
-- `deliverables/startups.csv`
-- `deliverables/products.csv`
-- `deliverables/research_papers.csv`
-- `deliverables/jobs.csv`
-- `deliverables/news.csv`
-- `deliverables/entity_mapping_log.csv`
-- `data/entity_mapping_log.csv`
-- `data/news_last_24h.json`
-- `data/jobs_last_24h.json`
-- `README.md`
-- `requirements.txt`
-- `.env.example`
-- `FINAL_ASSESSMENT_COMPLETION_REPORT.md`
+- `data/products_backup.csv` and `data/products_backup.json` — exact SHA-256 duplicates of `data/products.csv` and `data/products.json`.
+- `src/scrapers/research_scraper_backup.py` — exact SHA-256 duplicate of `src/scrapers/research_scraper.py`.
+- `src/scrapers/github_scraper_backup.py` — unused backup with no references from project source, tests, or documentation.
+- Eight empty, unreferenced Python files: `src/database/storage.py`; `src/scrapers/job_scraper.py`, `news_scraper.py`, `product_scraper.py`, `startup_scraper.py`; and `src/utils/date_parser.py`, `logger.py`, `retry_handler.py`.
 
-## Validation results
+The tracked repository file count changed from 116 to 104. This count excludes the local virtual environment, ignored caches, and the untracked local `.env`.
 
-- Core pytest suite: 9 tests passed.
-- Python compile check: passed.
-- Product JSON/CSV: 1,000 records and 1,000 unique names/domains.
-- Startup JSON/CSV: 1,000 records.
-- Research paper JSON: 1,000 records.
-- Architecture PDF: exactly 3 pages.
-- Excel workbook: exactly 6 required tabs.
-- CSV fallback files: valid and row-count checked.
-- Original verified product and source datasets were not overwritten.
+Distinct historical snapshots were retained, including `data/mydentify_approved_products_backup.*`, `data/mydentify_approved_products_pre_restore_*`, and `data/products_803_previous_run_*`. Hash checks showed these are not exact duplicates of their current counterparts, and they support review/audit traceability. The `review_products_803.py` script continues to create timestamped rollback snapshots when it replaces outputs.
 
-## External limitations
+## Security review
 
-1. No Gemini, Groq, or DeepSeek API keys were configured, so live provider switching could not be
-   executed. The fallback implementation and order are tested and ready.
-2. No Google account credentials or Google Sheets API access were available, so no Google Sheet was
-   published. The Excel workbook and six CSVs are ready for import.
-3. No Git executable or remote repository was available, so public GitHub publication was not executed.
-4. Public source availability can change. The latest run recorded 0 news/job source errors, but future
-   feeds or APIs may become blocked or malformed; the pipeline records such failures and does not fabricate rows.
-5. The news and job run is a rolling 24-hour snapshot; future runs require scheduling or a cron/task
-   runner.
+- Scanned all tracked text files for high-confidence common API tokens, AWS access keys, private-key blocks, and credential-bearing URLs; no matches were found.
+- `.env` is local, empty, untracked, and ignored. `.env.example` contains only the three provider variable names with empty values.
+- `.gitignore` excludes `.env`, `.env.*` except `.env.example`, key/certificate files, virtual environments, Python bytecode/cache directories, and pytest cache.
+- Dataset source URLs and organization/publication names are retained as project data; no dataset records were changed for this review.
 
-## Final submission steps
+Automated pattern scanning does not replace credential-manager or provider-side review. Rotate any real credential if one is later found to have been published.
 
-1. Add provider keys to `.env` and run provider smoke tests.
-2. Upload the Excel workbook or six CSV files to Google Sheets.
-3. Initialize or connect the repository if needed, review secret checks, and push to GitHub.
-4. Schedule `src/main.py` for periodic 24-hour monitoring.
-5. Re-run `python -m pytest -q` after any source or schema change.
+## Remaining limitations
+
+1. Google Sheets has not been published.
+2. No live Gemini, Groq, or DeepSeek requests were made; provider calls require authorized API keys.
+3. News and job collection is not scheduled as a hosted service.
+4. Source availability and returned publication metadata can change.
+5. Persistent database storage is not implemented; the PDF's database/queue design is a scale-out recommendation.
+6. No license has been selected.

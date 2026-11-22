@@ -1,178 +1,190 @@
-# 🚀 GraphOne Data Intelligence
+# GraphOne Data Intelligence
 
-An AI-powered data intelligence platform for discovering, collecting, monitoring, and organizing information about AI startups, products, research papers, news, and jobs.
+**A traceable data pipeline for discovering and monitoring AI companies, products, research, news, and jobs.**
 
-> **Assessment project** — built to demonstrate data collection, data quality, entity resolution, LLM orchestration, and scalable crawling patterns.
+[Architecture PDF](architecture.pdf) · [Assessment workbook](GraphOne_Assessment_Deliverables.xlsx) · [Completion report](FINAL_ASSESSMENT_COMPLETION_REPORT.md)
 
-## ✨ Project Overview
+## Overview
 
-GraphOne Data Intelligence brings multiple information sources into a consistent data pipeline. It is designed to collect source-attributed records, normalize and deduplicate them, monitor recent updates, and prepare structured outputs for analysis.
+GraphOne consolidates source-attributed AI ecosystem datasets and practical collection, review, entity-resolution, and export utilities. The project keeps source URLs and timestamps where available, retains verification evidence, normalizes monitoring dates to UTC, and prepares six CSV exports plus an Excel workbook.
 
-## 🧩 Core Capabilities
+This is an assessment and research project, not a hosted or continuously running service. Its local snapshots and rolling news/job results describe the latest captured run; new runs may have different counts.
 
-- **AI ecosystem discovery** — structured catalogs of AI startups, products, and research papers.
-- **News monitoring** — configurable public sources with a rolling 24-hour publication window.
-- **Job monitoring** — configurable public job-board/API collection with date normalization and deduplication.
-- **LLM orchestration** — provider fallback design for Gemini Flash, Groq Llama, and DeepSeek.
-- **Entity resolution** — deterministic matching against canonical seed entities with an audit log.
-- **Asynchronous crawling** — concurrent collection with timeouts, retries, and respect for site access rules.
-- **Deliverable generation** — CSV exports, a six-tab Excel workbook, and architecture documentation.
+## Features
 
-## 🏗️ Architecture at a Glance
+- **Reference datasets:** startup, verified product, and research-paper collections with source links.
+- **News monitoring:** seven public RSS feeds; canonical URL deduplication and a rolling 24-hour publication window.
+- **Job monitoring:** five public APIs; AI relevance filtering, UTC date normalization, and canonical URL deduplication.
+- **Entity resolution:** deterministic matching against canonical seed entities with an auditable decision log.
+- **LLM fallback module:** Gemini, Groq, and DeepSeek provider order, chunking for HTTP 413, and retry backoff for HTTP 429. Provider calls require credentials and have not been live-tested for this snapshot.
+- **Responsible retrieval:** asynchronous crawler utilities and article retrieval observe robots rules, timeouts, and source access restrictions.
+- **Assessment exports:** six CSV deliverables, a six-tab workbook, an architecture document, and validation report.
 
-```text
-Public Sources
-  ├── Startup / Product Directories
-  ├── Research Paper Sources
-  ├── AI News Feeds
-  └── Job APIs / Boards
-          │
-          ▼
-Collection & Crawling
-          │
-          ▼
-Parsing • Date Normalization • URL Validation
-          │
-          ▼
-Deduplication & Entity Resolution
-          │
-          ▼
-Structured Data (JSON / CSV)
-          │
-          ├── LLM Provider Orchestration
-          ├── Six-tab Excel Workbook
-          └── Architecture & Completion Reports
-```
+## Technology
 
-## 📂 Repository Structure
+- Python 3.10+
+- HTTP/RSS and parsing: `requests`, `aiohttp`, `feedparser`, `beautifulsoup4`
+- Data and matching: Python JSON/CSV, `rapidfuzz`
+- LLM configuration: `python-dotenv`, provider-compatible HTTP APIs
+- Deliverables: `xlsxwriter`, `openpyxl`, `reportlab`, `pypdf`
+- Tests: `pytest`
 
-The checked-in project layout is:
+## Architecture
 
 ```text
-GraphOne-Data-Intelligence/
-├── data/             # Collected and validated datasets
-├── deliverables/     # CSV exports and assessment outputs
-├── src/              # Scrapers, pipeline, LLM, and utilities
-├── tests/            # Automated tests
-├── architecture.pdf  # System architecture (maximum 3 pages)
-├── README.md
-├── requirements.txt
-├── .env.example      # Placeholder environment variables only
-└── FINAL_ASSESSMENT_COMPLETION_REPORT.md
+Public datasets, feeds, and job APIs
+                 │
+                 ▼
+       Collection and parsing
+                 │
+       ┌─────────┴─────────┐
+       ▼                   ▼
+ UTC date filtering   Robots/access checks
+       │                   │
+       └─────────┬─────────┘
+                 ▼
+     JSON snapshots and evidence
+                 │
+        Entity resolution log
+                 │
+      Six CSVs → six-tab workbook
 ```
 
-The `data/` directory also retains source snapshots and manual-review artifacts used during
-collection. `deliverables/` contains the six CSV files corresponding to the six workbook tabs.
+The runnable workflow is in `src/main.py`. The architecture PDF also describes a proposed scale-out design; database, queue, and graph-storage services in that design are not deployed by this project.
 
-## ⚙️ Getting Started
+## Installation
 
-### 1. Clone the repository
+Requirements: Python 3.10 or later. Internet access is needed for live feed/API collection.
 
-```bash
-git clone https://github.com/Venkatakishore125/GraphOne-Data-Intelligence.git
-cd GraphOne-Data-Intelligence
-```
-
-### 2. Create and activate a virtual environment
-
-**Windows PowerShell**
+### Windows PowerShell
 
 ```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
-
-### 3. Install dependencies
-
-```bash
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
+### macOS or Linux
 
-Copy `.env.example` to `.env` and add your own provider keys if needed. Keep `.env` private; never commit API keys, passwords, or access tokens.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
 
-### 5. Run the pipeline
+## Environment configuration
 
-Run the primary collection and export workflow from the repository root:
+Copy `.env.example` to `.env`, then add keys only for providers you are authorized to use:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+On macOS or Linux, use `cp .env.example .env`. The file contains:
+
+```dotenv
+GEMINI_API_KEY=
+GROQ_API_KEY=
+DEEPSEEK_API_KEY=
+```
+
+Keys are optional for the collection and export workflow. `LLMFallback` reads `.env` from the current project directory when initialized. The checked-in example contains empty values; `.env` and credentials are excluded by [.gitignore](.gitignore). Never commit provider keys, passwords, access tokens, or private certificates.
+
+## Run the project
+
+From the repository root, run the collection, entity mapping, and CSV export workflow:
 
 ```powershell
 python src\main.py
 ```
 
-Generate the architecture PDF and Excel workbook with:
+Generate the other deliverables:
 
 ```powershell
 python src\create_architecture_pdf.py
 python src\create_xlsx_deliverable.py
 ```
 
-## 📊 Assessment Deliverables
+The pipeline uses public sources and may update rolling snapshots. Network failures are written to `data/news_last_24h_errors.json` and `data/jobs_last_24h_errors.json`; records are not fabricated to meet target counts.
 
-The local assessment package is intended to include:
+## Repository layout
 
-| Deliverable | Description |
+```text
+GraphOne-Data-Intelligence/
+├── data/                 # Datasets, monitoring snapshots, evidence, and review history
+├── deliverables/         # Six import-ready CSV exports
+├── src/
+│   ├── entity_resolution/
+│   ├── llm/
+│   ├── scrapers/
+│   ├── create_architecture_pdf.py
+│   ├── create_xlsx_deliverable.py
+│   ├── export_deliverables.py
+│   └── main.py
+├── tests/
+├── .env.example
+├── .gitignore
+├── architecture.pdf
+├── GraphOne_Assessment_Deliverables.xlsx
+├── FINAL_ASSESSMENT_COMPLETION_REPORT.md
+├── README.md
+└── requirements.txt
+```
+
+The `data/` directory also contains useful source snapshots, evidence, rejected records, and manual-review history; these are retained for traceability.
+
+## Dataset snapshot
+
+Latest checked local snapshot: **November 22, 2026** (news/job snapshots captured around 14:01 local time). Counts are run-specific.
+
+| Dataset | Records | Validation |
+|---|---:|---|
+| Startups | 1,000 | Unique normalized names; source URLs present |
+| Verified AI products | 1,000 | Unique product names and website domains |
+| Research papers | 1,000 | Unique titles; paper URLs present |
+| News, rolling 24-hour window | 3 | The Verge AI; unique URLs |
+| Jobs, rolling 24-hour window | 184 | 101 Arbeitnow, 12 Himalayas, 71 Jobicy; unique URLs |
+| Entity mapping log | 3,000 | Startup, product, and research records |
+
+News/job published timestamps were checked against each record's collection time and the 24-hour window. Source URLs were syntactically checked; this does not guarantee that each external website remains reachable.
+
+## Assessment deliverables
+
+The Excel workbook has exactly six tabs, with matching CSV exports:
+
+| Tab | CSV |
 |---|---|
-| Startups | Structured AI startup dataset |
-| Products | Structured AI product catalog |
-| Research Papers | Research paper metadata and source links |
-| News | Recent AI news records |
-| Jobs | Recent AI job records |
-| Entity Mapping Log | Canonical entity-resolution decisions |
-| Excel Workbook | Six tabs covering the above datasets |
-| Architecture PDF | System design and scaling approach |
-| [Completion Report](FINAL_ASSESSMENT_COMPLETION_REPORT.md) | Requirement-by-requirement status and validation |
+| Startups | [startups.csv](deliverables/startups.csv) |
+| Products | [products.csv](deliverables/products.csv) |
+| Research Papers | [research_papers.csv](deliverables/research_papers.csv) |
+| Jobs | [jobs.csv](deliverables/jobs.csv) |
+| News | [news.csv](deliverables/news.csv) |
+| Entity Mapping Log | [entity_mapping_log.csv](deliverables/entity_mapping_log.csv) |
 
-The bundled package also includes:
+Also included: [Excel workbook](GraphOne_Assessment_Deliverables.xlsx), [architecture PDF](architecture.pdf), [completion report](FINAL_ASSESSMENT_COMPLETION_REPORT.md), and [product verification evidence](data/products_1000_verification_evidence.json).
 
-- [Architecture PDF](architecture.pdf)
-- [Six-tab Excel workbook](GraphOne_Assessment_Deliverables.xlsx)
-- [Six CSV deliverables](deliverables/)
-- [Entity-resolution and collection data](data/)
+## Tests and validation
 
-The latest recorded local snapshot contains 1,000 startups, 1,000 verified products,
-1,000 enriched research papers, 3 eligible news records, and 184 eligible job records.
-Counts from later monitoring runs may change as source activity changes.
-
-## ✅ Data Quality & Responsible Collection
-
-- Preserve a source URL for each collected record.
-- Normalize dates to a consistent timezone before applying freshness filters.
-- Deduplicate using canonical URLs and stable entity identifiers where available.
-- Keep rejected and manual-review records separate from verified datasets.
-- Respect robots.txt, source terms, rate limits, and access controls.
-- Do not bypass anti-bot protections or access restricted content without permission.
-- Report actual collection counts; never fabricate records to satisfy a target.
-
-## 🧪 Testing
-
-Run the project's test suite from the repository root:
-
-```bash
+```powershell
+python -m compileall -q src tests
 python -m pytest -q
 ```
 
-Also compile-check source modules where applicable:
+The automated tests cover core dataset counts, text chunking, entity resolution, exports, `.env` configuration, provider fallback behavior, HTTP 413 chunking, HTTP 429 retry delays, and monitoring source/canonical URL behavior. The [completion report](FINAL_ASSESSMENT_COMPLETION_REPORT.md) records the latest validation results.
 
-```bash
-python -m compileall -q src tests
-```
+## Security and responsible collection
 
-Test results should be refreshed against the exact commit being submitted.
+- `.env`, virtual environments, caches, key files, and credential files are ignored by Git.
+- `.env.example` contains variable names with empty placeholders only.
+- Respect source terms, robots.txt rules, rate limits, and access controls; do not bypass anti-bot or authentication systems.
+- Keep provider credentials local and rotate any credential that is accidentally published.
 
-## 🔐 Security
+## Limitations and publication status
 
-- `.env`, virtual environments, caches, and local secrets should be excluded by `.gitignore`.
-- Use `.env.example` only for variable names and placeholder values.
-- Review staged files before committing.
-- Rotate any credential accidentally published to a public repository.
-
-## 📌 Current Publication Status
-
-The repository includes the project source, data snapshots, tests, six CSV deliverables,
-Excel workbook, architecture PDF, and completion report. Source availability and rolling
-news/job counts can change on subsequent runs.
-
-## 📄 License
-
-No license has been selected yet. Until a license is added, all rights remain with the respective copyright holders; do not assume the code is available for reuse.
+- News and jobs are rolling snapshots, not a continuously scheduled service.
+- Feed/API availability, publication times, and article text vary by source; retrieval may be limited to a source summary.
+- Gemini, Groq, and DeepSeek calls are implemented but require configured keys; no live provider call is claimed as tested.
+- The database/storage module is not implemented; persistent database storage is not part of the current workflow.
+- Google Sheets has not been published. The workbook and CSVs are ready for import.
+- The project is published at [github.com/Venkatakishore125/GraphOne-Data-Intelligence](https://github.com/Venkatakishore125/GraphOne-Data-Intelligence).
+- No license has been selected; no reuse rights should be assumed.
